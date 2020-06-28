@@ -4,7 +4,7 @@ import { Sort } from '../components/Sort/Sort';
 
 export function AutoSellerContainer() {
     return (
-        <div>
+        <div style={{backgroundColor:'#eee'}}>
             <Header />
             <Sort />
         </div>

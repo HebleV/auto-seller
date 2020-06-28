@@ -1,26 +1,119 @@
-.bestsellerContainer{
+/* .bestsellerContainer{
     display:flex;
     width: 100%;
     border-top: 1px solid #000;
+} */
+.bestsellerCol {
+    background-color: #fff;
+    margin: 2%;
+    padding: 3%;
 }
 .bestsellerContainer div {
     padding:2%;
     margin-top:2%;
 }
 .premium,.economy{
-    flex:1;
     background-color: #fff;
-}
-.premium {
+} 
+/* .premium {
     margin-right:1%;
 }
 .economy {
     margin-left: 1%;
+} */
+ .bestsellerItemLink{
+    text-decoration: none;
+    flex-grow:3;
+    color:#000;
+    font-size:20px;
+    font-weight: 700;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+.listItemQuantity span:nth-child(odd) {
+    border:1px solid #eee;
+    background-color: #fff;
+    height: 30px;
+    cursor: pointer;
+    padding: 5%;
+}
+.listItemQuantity span:nth-child(2) {
+    border:1px solid #eee;
+    background-color: #eee;
+    padding: 5%;
+    cursor: pointer;
+}
+.listItemCartButton{
+    border-radius: 25px;
+    cursor:pointer;
+    padding: 7% 20%;
+    text-align: center;
+    font-weight:700;
+    background-color: #FFA90A;
 }
 
-@media(min-width:768px){
-    .container {
-        display:flex;
-        flex-wrap: wrap;
+@media only screen and (max-width: 768px) {
+    .itemDetails {
+        margin-right: 2% !important;
     }
+    .listItemQuantity {
+        margin-right: 50%;
+    }
+    .itemQty {
+        margin-bottom: 5% !important;
+    }
+    .listItemCartButton{
+        width:20%;
+        padding:7% 15%;
+        margin-left:100%;
+    }
+    .listItemCartButton span{
+        display: none;
+    }
+    /* .listItemStock{
+        margin:0 0% !important;
+    }
+    .listItemPrice{
+        margin:0 0% !important;
+    } */
 }
+
+@media only screen and (max-width: 600px) {
+    .itemDetails {
+        margin-right: 2% !important;
+    }
+    .listItemQuantity {
+        margin-right: 50%;
+    }
+    .itemQty {
+        margin-bottom: 5% !important;
+    }
+    .listItemCartButton{
+        width:20%;
+        padding:7% 15%;
+        margin-left:100%;
+    }
+    .listItemCartButton span{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .itemDetails {
+        margin-right: 2% !important;
+    }
+    .listItemQuantity {
+        margin-right: 50%;
+    }
+    .itemQty {
+        margin-bottom: 5% !important;
+    }
+    .listItemCartButton{
+        width:20%;
+        padding:7% 15%;
+        margin-left:100%;
+    }
+    .listItemCartButton span{
+        display: none;
+    }
+  }
