@@ -1,0 +1,18 @@
+.header {
+    display:grid;
+    grid-template-columns: 10% 55% 35%;
+    height:70px;
+    background-color:#eee;
+    border-bottom:2px solid #000;
+}
+.header input[type="text"]{
+    padding: 10px 10px;
+    border-radius:20px;
+}
+.logo,.search,.menus {
+    vertical-align: middle;
+    margin:auto;
+}
+.menus span{
+    padding:20px;
+}

@@ -1,0 +1,26 @@
+.bestsellerContainer{
+    display:flex;
+    width: 100%;
+    border-top: 1px solid #000;
+}
+.bestsellerContainer div {
+    padding:2%;
+    margin-top:2%;
+}
+.premium,.economy{
+    flex:1;
+    background-color: #fff;
+}
+.premium {
+    margin-right:1%;
+}
+.economy {
+    margin-left: 1%;
+}
+
+@media(min-width:768px){
+    .container {
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
