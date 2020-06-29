@@ -50,9 +50,6 @@
 }
 
 @media only screen and (max-width: 768px){
-    .listItem1,.listItem2,.listItem3,.listItem4{
-        /* height:20vh; */
-    }
     .listContainer{
         margin: 5% 0;
         display: block !important;
@@ -64,18 +61,12 @@
     .listItem1 div,.listItem2 div,.listItem3 div,.listItem4 div{
         margin:2%;
     }
-    .listItemLink,.listItemImg,.listItemModel{
-        /* flex-basis: 6%; */
-    }
     .listItemCartButton span{
         display: none;
     }
 }
 
 @media only screen and (max-width: 1366px){
-    .listItem1,.listItem2,.listItem3,.listItem4{
-        /* height:20vh; */
-    }
     .listContainer{
         display:flex;
         margin: 5% 0;
@@ -104,75 +95,4 @@
     .listItemCartButton span{
         flex-basis: 20%;
     }
-    
 }
-/* 
-
- .listContainer{
-    width: 100%;
-    margin:1% 0;
-}
-.listContainer div{
-    padding:1%;
-}
-.listItem{
-    display:flex;
-    background-color: #fff;
-    margin:1% 0;
-    align-items: center;
-
-}
-.listItem a{
-    color:#000;
-}
-
-.listItemLink,.listItemImg,.listItemModel,.listItemStock,.listItemPrice,.listItemQuantity,.listItemTotal,.listItemCartButton{
-    margin:0 3% 0 0.5%;
-    width: 10%;
-    width:8%;
-}
-
-.listItemQuantity span:nth-child(odd) {
-    border:1px solid #eee;
-    background-color: #fff;
-    height: 30px;
-    cursor: pointer;
-    padding: 10%;
-}
-.listItemQuantity span:nth-child(2) {
-    border:1px solid #eee;
-    background-color: #eee;
-    padding: 10%;
-    cursor: pointer;
-}
-
-.listItemCartButton,.listItemCartButtonNotify{
-    border-radius: 25px;
-    cursor:pointer;
-    padding: 1%;
-    width: 11%;
-    text-align: center;
-    font-weight:700;
-}
-.listItemCartButton{
-    background-color: #FFA90A;
-}
-.listItemCartButtonNotify {
-    border:2px solid #FFA90A;
-}
-
-@media only screen and (max-width: 768px){
-    .listItem{
-        display: flex;
-        margin:4% 0;
-    }
-    .listContainer{
-        margin:5% 0;
-    }
-    .listContainer div{
-        padding:5% 0;
-    }
-    .listItemLink{
-        flex-basis:50%;
-    }
-} */
