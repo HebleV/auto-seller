@@ -1,5 +1,5 @@
-.header {
-    display:grid;
+/* .header {
+    display:flex;
     grid-template-columns: 10% 55% 35%;
     height:70px;
     background-color:#eee;
@@ -15,4 +15,47 @@
 }
 .menus span{
     padding:20px;
+} */
+
+.header{
+    display: flex;
+    height:10vh;
+    background-color:#fff;
+    border-bottom:2px solid #000;
+    align-items: center;
+}
+.header input[type="text"]{
+    padding: 5px 5px;
+    border-radius:20px;
+}
+.logo,.search,.menus{
+    display: flex;
+}
+
+.logo{
+    flex:1;
+    margin:0 1%;
+}
+.search{
+    flex:2;
+}
+.menus .navlink{
+    text-decoration: none;
+    color: #000;
+}
+.menus{
+    flex:1;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px){
+    .menus a span{
+        display: none;
+    }
+    .menus a {
+        margin:5%;
+    }
+    .search input[type="text"]{
+        width:90%;
+    }
 }
